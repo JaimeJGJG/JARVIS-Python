@@ -17,6 +17,8 @@ sudo apt-get install python3-dbus
 
 sudo apt-get install python3-pyqt5
 
+sudo apt-get install mbrola-br3
+
 
 
 Atualizar o pip para instalar o vosk com o comando: pip install -U pip
