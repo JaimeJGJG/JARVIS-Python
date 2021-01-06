@@ -1,6 +1,6 @@
 # JARVIS-Python
-Assistente virtual J.A.R.V.I.S com reconhecimento de voz offline
-Atualmente foi projetado para funcionar em distros linux baseadas em debian
+Assistente virtual J.A.R.V.I.S com reconhecimento de voz offline\n
+Atualmente foi projetado para funcionar em distros linux baseadas em debian\n
 
  PARA TUDO FUNCIONAR INSTALE:
  sudo apt-get install python3-pip
