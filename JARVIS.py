@@ -31,7 +31,7 @@ def SoundStart():
 SoundStart()
 
 # Validacao da pasta de modelo
-# É necessario criar a pasta model-br a partir de onde estiver este fonte
+# É necessario criar a pasta model-br a partir de onde estiver esta fonte
 if not os.path.exists("model-br"):
     print ("Modelo em portugues nao encontrado.")
     exit (1)
