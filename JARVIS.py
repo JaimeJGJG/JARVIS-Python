@@ -3,6 +3,8 @@
 #
 # Assistente Virtual Offline
 #
+# Copyright 2021 JaimeJGJG
+#
 from vosk import Model, KaldiRecognizer
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
