@@ -19,7 +19,6 @@ Desenvolvedor:JaimeJG
 # Atualizar o pip para instalar o vosk com o comando: pip install -U pip
 # pip3 install SpeechRecognition
 # pip3 install geocoder
-# pip3 install vlc-ctrl
 # pip3 install pyttsx3
 # pip3 install datetime
 # pip3 install espeakng
