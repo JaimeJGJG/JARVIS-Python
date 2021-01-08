@@ -74,7 +74,7 @@ def notificar(textos):
 def respostagoogle(textofala):
     tts = gTTS(text=textofala, lang='pt-br')
     tts.save("rpg.mp3")
-    notification.notify(title = "J.A.R.V.I.S--VozGoogle",message = textos,timeout = 30)
+    notification.notify(title = "J.A.R.V.I.S--VozGoogle",message = textofala,timeout = 30)
     p = vlc.MediaPlayer("rpg.mp3")
     p.play()
 
