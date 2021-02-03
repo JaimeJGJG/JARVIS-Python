@@ -34,6 +34,12 @@ def SomIncial():
     p = vlc.MediaPlayer("StartSound.mp3")
     p.play()
 
+SomInicial()
+
+def SomCarregamento():
+    p = vlc.MediaPlayer("AI.mp3")
+    p.play()
+
 # Validacao da pasta de modelo
 # É necessario criar a pasta model-br a partir de onde estiver esta fonte
 if not os.path.exists("model-br"):
@@ -172,7 +178,7 @@ class mainT(QThread):
         super(mainT,self).__init__()
 
     def run(self):
-        SomIncial()
+        SomCarregamento()
         resposta('Ok')
         resposta('Modulos iniciados')
         resposta('Tudo pronto para atender seus comandos')
