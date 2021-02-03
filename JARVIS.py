@@ -134,7 +134,7 @@ def BoasVindas():
 def tempo(): 
     try:
         #Procure no google maps as cordenadas da sua cidade e coloque no "lat" e no "lon"(Latitude,Longitude)
-        api_url = "https://fcc-weather-api.glitch.me/api/current?lat=-28.046206791419912&lon=-54.68087954164482"
+        api_url = "https://fcc-weather-api.glitch.me/api/current?lat=LATITUDE_AQUI&lon=LONGITUDE_AQUI"
         data = requests.get(api_url)
         data_json = data.json()
         if data_json['cod'] == 200:
