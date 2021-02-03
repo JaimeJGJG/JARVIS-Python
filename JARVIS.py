@@ -158,7 +158,7 @@ def tempo(): #Procure no google maps as cordenadas da sua cidade e coloque no "l
         resposta('Não foi possivel verificar o clima')
         resposta('Tente novamente o comando')
 
-def AtéMais():
+def AteMais():
     Horario = int(datetime.datetime.now().hour)
     if Horario >= 0 and Horario < 12:
         resposta('Tenha um ótimo dia')
@@ -500,7 +500,7 @@ class mainT(QThread):
                 resposta('Ok')
                 resposta('Vou encerrar por enquanto')
                 resposta('Até mais')
-                AtéMais()
+                AteMais()
                 sys.exit()
 	     
             elif 'ok' in self.Input: #OkOkOk
